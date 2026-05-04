@@ -30,7 +30,7 @@ void rulerwindow::paintEvent(QPaintEvent *event)
     painter.drawText(leftStartX + 20, baseY + 3*lineHeight, "A. 向左移动");
     painter.drawText(leftStartX + 20, baseY + 4*lineHeight, "D. 向右移动");
     painter.drawText(leftStartX + 20, baseY + 5*lineHeight, "K. 攻击键位");
-    painter.drawText(leftStartX + 20, baseY + 6*lineHeight, "J. 技能键位");
+    painter.drawText(leftStartX + 20, baseY + 6*lineHeight, "L. 技能键位");
     painter.setFont(QFont("微软雅黑", 18, QFont::Medium));
     painter.drawText(rightStartX, baseY, "📋 关卡规则");
     painter.setFont(QFont("微软雅黑", 15));
